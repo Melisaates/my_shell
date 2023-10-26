@@ -1,26 +1,31 @@
-# Shell Programı
+# Shell Program
 
-Bu shell programı, kullanıcının komutları çalıştırabilmesi için bir kabuk ortamı sağlar. Kullanıcı, programı çalıştırdığında komutları girer ve program bu komutları işler.
+This shell program provides an environment for the user to execute commands. When the user runs the program, they enter commands, and the program processes these commands.
 
-## Kullanım
+## Usage
 
-Programı kullanmak için aşağıdaki adımları izleyin:
+To use the program, follow these steps:
 
-1. `main` fonksiyonunu içeren C dosyasını indirin veya kopyalayın.
-2. C derleyicinizle (gcc gibi) dosyayı derleyin. Örneğin, Linux üzerinde GCC kullanarak aşağıdaki komutu kullanabilirsiniz:
+1. Download or copy the C file that contains the `main` function.
+2. Compile the file using your C compiler (e.g., GCC). For example, on Linux using GCC, you can use the following command:
 
-gcc shell.c -o shell
+   ```bash
+   gcc shell.c -o shell
 
-3. Derlenmiş programı çalıştırın:
+
+3. Run the compiled program:
 
 ./shell
 
-4. Program başladığında, bir kabuk etkileşimini temsil eden `>>` işaretçisi belirecektir. Burada komutlarınızı girebilirsiniz.
-5. Çalıştırmak istediğiniz komutu girin. Örneğin, `ls`, `cd`, `pwd` gibi standart kabuk komutlarını kullanabilirsiniz.
-6. Çalıştırmak istediğiniz komutu girdikten sonra, çıktıları ve herhangi bir hata mesajını göreceksiniz.
-7. Çalıştırmak istediğiniz tüm komutları girdikten sonra, `quit` komutunu girerek programı sonlandırabilirsiniz.
+    When the program starts, you will see a >> prompt representing a shell interaction. Here, you can enter your commands.
 
-Örnek kullanım:
+    Enter the command you want to run. You can use standard shell commands like ls, cd, pwd, etc.
+
+    After entering the command you want to run, you will see the outputs and any error messages.
+
+    After entering all the commands you want to run, you can exit the program by typing quit.
+
+Example usage:
 ls
 file.txt program.c shell.c
 pwd
@@ -29,8 +34,9 @@ quit
 bye bye
 
 
-## Lisans
+## License
 
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için [LİSANS](LICENSE) dosyasını inceleyebilirsiniz.
+This project is licensed under the MIT License. For more information, please see the LICENSE file.
+
 
 
